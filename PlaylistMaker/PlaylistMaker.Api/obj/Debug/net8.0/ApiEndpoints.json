@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "PlaylistMaker.Api.Controllers.SpotifyController",
+    "Method": "Get",
+    "RelativePath": "api/spotify",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PlaylistMaker.Api.Controllers.SpotifyController",
+    "Method": "GetToken",
+    "RelativePath": "token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

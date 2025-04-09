@@ -1,0 +1,16 @@
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\bin\Debug\net8.0\PlaylistMaker.Application.deps.json
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\bin\Debug\net8.0\PlaylistMaker.Application.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\bin\Debug\net8.0\PlaylistMaker.Application.pdb
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\bin\Debug\net8.0\PlaylistMaker.Domain.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\bin\Debug\net8.0\PlaylistMaker.Domain.pdb
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\PlaylistMaker.Application.csproj.AssemblyReference.cache
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\PlaylistMaker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\PlaylistMaker.Application.AssemblyInfoInputs.cache
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\PlaylistMaker.Application.AssemblyInfo.cs
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\PlaylistMaker.Application.csproj.CoreCompileInputs.cache
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\PlaylistMaker.Application.sourcelink.json
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\Playlist.D6A7211E.Up2Date
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\PlaylistMaker.Application.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\refint\PlaylistMaker.Application.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\PlaylistMaker.Application.pdb
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Application\obj\Debug\net8.0\ref\PlaylistMaker.Application.dll

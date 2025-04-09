@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0A9E95-EB45-2FF9-584F-1C500FB38FB6}|PlaylistMaker.Api\\PlaylistMaker.Api.csproj|c:\\development\\pessoal\\playlistmaker\\playlistmaker\\playlistmaker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B0A9E95-EB45-2FF9-584F-1C500FB38FB6}|PlaylistMaker.Api\\PlaylistMaker.Api.csproj|solutionrelative:playlistmaker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A2A156-C8D7-4791-8C2A-EC69920643CC}|PlaylistMaker.Infrastructure\\PlaylistMaker.Infrastructure.csproj|c:\\development\\pessoal\\playlistmaker\\playlistmaker\\playlistmaker.infrastructure\\services\\azureimageanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A2A156-C8D7-4791-8C2A-EC69920643CC}|PlaylistMaker.Infrastructure\\PlaylistMaker.Infrastructure.csproj|solutionrelative:playlistmaker.infrastructure\\services\\azureimageanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751038C5-7D9B-4302-B200-28EC1289AFD1}|PlaylistMaker.Domain\\PlaylistMaker.Domain.csproj|c:\\development\\pessoal\\playlistmaker\\playlistmaker\\playlistmaker.domain\\interfaces\\iimageanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751038C5-7D9B-4302-B200-28EC1289AFD1}|PlaylistMaker.Domain\\PlaylistMaker.Domain.csproj|solutionrelative:playlistmaker.domain\\interfaces\\iimageanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0A9E95-EB45-2FF9-584F-1C500FB38FB6}|PlaylistMaker.Api\\PlaylistMaker.Api.csproj|c:\\development\\pessoal\\playlistmaker\\playlistmaker\\playlistmaker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0A9E95-EB45-2FF9-584F-1C500FB38FB6}|PlaylistMaker.Api\\PlaylistMaker.Api.csproj|solutionrelative:playlistmaker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "PlaylistMaker.Api\\appsettings.json",
+              "ToolTip": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Api\\appsettings.json",
+              "RelativeToolTip": "PlaylistMaker.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T01:17:34.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IImageAnalyzer.cs",
+              "DocumentMoniker": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Domain\\Interfaces\\IImageAnalyzer.cs",
+              "RelativeDocumentMoniker": "PlaylistMaker.Domain\\Interfaces\\IImageAnalyzer.cs",
+              "ToolTip": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Domain\\Interfaces\\IImageAnalyzer.cs",
+              "RelativeToolTip": "PlaylistMaker.Domain\\Interfaces\\IImageAnalyzer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T00:41:04.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AzureImageAnalyzer.cs",
+              "DocumentMoniker": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Infrastructure\\Services\\AzureImageAnalyzer.cs",
+              "RelativeDocumentMoniker": "PlaylistMaker.Infrastructure\\Services\\AzureImageAnalyzer.cs",
+              "ToolTip": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Infrastructure\\Services\\AzureImageAnalyzer.cs",
+              "RelativeToolTip": "PlaylistMaker.Infrastructure\\Services\\AzureImageAnalyzer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T00:33:13.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Api\\Program.cs",
+              "RelativeDocumentMoniker": "PlaylistMaker.Api\\Program.cs",
+              "ToolTip": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Api\\Program.cs",
+              "RelativeToolTip": "PlaylistMaker.Api\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T23:57:54.991Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

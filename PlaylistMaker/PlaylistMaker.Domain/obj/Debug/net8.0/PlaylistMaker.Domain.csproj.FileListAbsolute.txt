@@ -1,0 +1,12 @@
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\bin\Debug\net8.0\PlaylistMaker.Domain.deps.json
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\bin\Debug\net8.0\PlaylistMaker.Domain.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\bin\Debug\net8.0\PlaylistMaker.Domain.pdb
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\obj\Debug\net8.0\PlaylistMaker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\obj\Debug\net8.0\PlaylistMaker.Domain.AssemblyInfoInputs.cache
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\obj\Debug\net8.0\PlaylistMaker.Domain.AssemblyInfo.cs
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\obj\Debug\net8.0\PlaylistMaker.Domain.csproj.CoreCompileInputs.cache
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\obj\Debug\net8.0\PlaylistMaker.Domain.sourcelink.json
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\obj\Debug\net8.0\PlaylistMaker.Domain.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\obj\Debug\net8.0\refint\PlaylistMaker.Domain.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\obj\Debug\net8.0\PlaylistMaker.Domain.pdb
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Domain\obj\Debug\net8.0\ref\PlaylistMaker.Domain.dll

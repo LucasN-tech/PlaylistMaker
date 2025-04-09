@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PlaylistMaker.Application/1.0.0": {
+        "dependencies": {
+          "PlaylistMaker.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PlaylistMaker.Application.dll": {}
+        }
+      },
+      "PlaylistMaker.Domain/1.0.0": {
+        "runtime": {
+          "PlaylistMaker.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlaylistMaker.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlaylistMaker.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
