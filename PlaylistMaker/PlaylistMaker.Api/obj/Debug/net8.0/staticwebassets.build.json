@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "LTOZYFILDZOJIlCRTPW6gRfKkYbq9ZIexDYpX+kgK4M=",
+  "Source": "PlaylistMaker.Api",
+  "BasePath": "_content/PlaylistMaker.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PlaylistMaker.props" />
+</Project>
