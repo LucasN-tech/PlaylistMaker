@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PlaylistMaker.Domain.Entities;
 
 namespace PlaylistMaker.Domain.Interfaces
 {
     public interface IImageAnalyzer
     {
-        Task<List<string>> AnalyzeAsync(Stream imageStream);
+        Task<AzureImageAnalysisResult> AnalyzeImageAsync(Stream imageStream);
     }
 }

@@ -32,6 +32,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Application\\PlaylistMaker.Application.csproj": {
+                "projectPath": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Application\\PlaylistMaker.Application.csproj"
+              },
               "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Domain\\PlaylistMaker.Domain.csproj": {
                 "projectPath": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Domain\\PlaylistMaker.Domain.csproj"
               },
@@ -134,6 +137,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -247,8 +256,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Application\\PlaylistMaker.Application.csproj": {
-                "projectPath": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Application\\PlaylistMaker.Application.csproj"
+              "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Domain\\PlaylistMaker.Domain.csproj": {
+                "projectPath": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Domain\\PlaylistMaker.Domain.csproj"
               }
             }
           }
@@ -269,13 +278,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Azure.AI.Vision.Face": {
+              "target": "Package",
+              "version": "[1.0.0-beta.2, )"
+            },
             "Azure.AI.Vision.ImageAnalysis": {
               "target": "Package",
-              "version": "[1.0.0-beta.5, )"
+              "version": "[1.0.0, )"
             },
             "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.Extensions.Options": {
               "target": "Package",

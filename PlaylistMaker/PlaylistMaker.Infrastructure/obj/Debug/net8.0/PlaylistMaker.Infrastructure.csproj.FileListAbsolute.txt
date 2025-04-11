@@ -1,9 +1,7 @@
 C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Infrastructure\bin\Debug\net8.0\PlaylistMaker.Infrastructure.deps.json
 C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Infrastructure\bin\Debug\net8.0\PlaylistMaker.Infrastructure.dll
 C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Infrastructure\bin\Debug\net8.0\PlaylistMaker.Infrastructure.pdb
-C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Infrastructure\bin\Debug\net8.0\PlaylistMaker.Application.dll
 C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Infrastructure\bin\Debug\net8.0\PlaylistMaker.Domain.dll
-C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Infrastructure\bin\Debug\net8.0\PlaylistMaker.Application.pdb
 C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Infrastructure\bin\Debug\net8.0\PlaylistMaker.Domain.pdb
 C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Infrastructure\obj\Debug\net8.0\PlaylistMaker.Infrastructure.csproj.AssemblyReference.cache
 C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Infrastructure\obj\Debug\net8.0\PlaylistMaker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

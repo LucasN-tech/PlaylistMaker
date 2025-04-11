@@ -2,6 +2,23 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Azure.AI.Vision.Face/1.0.0-beta.2": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.44.1",
+          "System.Text.Json": "6.0.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.AI.Vision.Face.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.AI.Vision.Face.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.AI.Vision.ImageAnalysis/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -43,7 +60,7 @@
           }
         }
       },
-      "Microsoft.Azure.CognitiveServices.Vision.ComputerVision/7.0.0": {
+      "Microsoft.Azure.CognitiveServices.Vision.ComputerVision/7.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Rest.ClientRuntime": "[2.3.20, 3.0.0)",
@@ -1761,19 +1778,6 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
-      "PlaylistMaker.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "PlaylistMaker.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PlaylistMaker.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PlaylistMaker.Application.dll": {}
-        }
-      },
       "PlaylistMaker.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1787,6 +1791,22 @@
     }
   },
   "libraries": {
+    "Azure.AI.Vision.Face/1.0.0-beta.2": {
+      "sha512": "Qx/yGm35Jld7oWRC8eylbnrmsWUtKIB83I+lLrz0TkLZyqBuGfd5lwlFwU32u4V/OLro0p9M+EDrLshbQQYavw==",
+      "type": "package",
+      "path": "azure.ai.vision.face/1.0.0-beta.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.ai.vision.face.1.0.0-beta.2.nupkg.sha512",
+        "azure.ai.vision.face.nuspec",
+        "azureicon.png",
+        "lib/netstandard2.0/Azure.AI.Vision.Face.dll",
+        "lib/netstandard2.0/Azure.AI.Vision.Face.xml"
+      ]
+    },
     "Azure.AI.Vision.ImageAnalysis/1.0.0": {
       "sha512": "ImGqg6uroJT0baxiRDq0mADC/xuv0k6i56i9pJG6adKMXKKc8HUbNNvYdvEnzn8GezmiKZXpt1G6+wPAopGJrw==",
       "type": "package",
@@ -1825,10 +1845,10 @@
         "lib/netstandard2.0/Azure.Core.xml"
       ]
     },
-    "Microsoft.Azure.CognitiveServices.Vision.ComputerVision/7.0.0": {
-      "sha512": "f6khBzudPBt3aW1cNGZxc3MSZF/X3M5KUPnAiDJcz+7+L2u7dKDTgDb1YkXizzuv0vHKUha6ntPFAvuvJwX4Rg==",
+    "Microsoft.Azure.CognitiveServices.Vision.ComputerVision/7.0.1": {
+      "sha512": "KbyyhYy+uGoHVqPSsKMvqLc68juir5USFBVEDPgr0O9pBmxxp1Eau238+mIjHfn/4D6nGmRy7R+GxkxTZxdiYw==",
       "type": "package",
-      "path": "microsoft.azure.cognitiveservices.vision.computervision/7.0.0",
+      "path": "microsoft.azure.cognitiveservices.vision.computervision/7.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1837,7 +1857,7 @@
         "lib/net461/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
         "lib/netstandard1.4/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
         "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
-        "microsoft.azure.cognitiveservices.vision.computervision.7.0.0.nupkg.sha512",
+        "microsoft.azure.cognitiveservices.vision.computervision.7.0.1.nupkg.sha512",
         "microsoft.azure.cognitiveservices.vision.computervision.nuspec",
         "pkgicon.png"
       ]
@@ -5983,11 +6003,6 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
-    "PlaylistMaker.Application/1.0.0": {
-      "type": "project",
-      "path": "../PlaylistMaker.Application/PlaylistMaker.Application.csproj",
-      "msbuildProject": "../PlaylistMaker.Application/PlaylistMaker.Application.csproj"
-    },
     "PlaylistMaker.Domain/1.0.0": {
       "type": "project",
       "path": "../PlaylistMaker.Domain/PlaylistMaker.Domain.csproj",
@@ -5996,10 +6011,11 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Azure.AI.Vision.ImageAnalysis >= 1.0.0-beta.5",
-      "Microsoft.Azure.CognitiveServices.Vision.ComputerVision >= 7.0.0",
+      "Azure.AI.Vision.Face >= 1.0.0-beta.2",
+      "Azure.AI.Vision.ImageAnalysis >= 1.0.0",
+      "Microsoft.Azure.CognitiveServices.Vision.ComputerVision >= 7.0.1",
       "Microsoft.Extensions.Options >= 9.0.4",
-      "PlaylistMaker.Application >= 1.0.0"
+      "PlaylistMaker.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6034,8 +6050,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Application\\PlaylistMaker.Application.csproj": {
-              "projectPath": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Application\\PlaylistMaker.Application.csproj"
+            "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Domain\\PlaylistMaker.Domain.csproj": {
+              "projectPath": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Domain\\PlaylistMaker.Domain.csproj"
             }
           }
         }
@@ -6056,13 +6072,17 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Azure.AI.Vision.Face": {
+            "target": "Package",
+            "version": "[1.0.0-beta.2, )"
+          },
           "Azure.AI.Vision.ImageAnalysis": {
             "target": "Package",
-            "version": "[1.0.0-beta.5, )"
+            "version": "[1.0.0, )"
           },
           "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
             "target": "Package",
-            "version": "[7.0.0, )"
+            "version": "[7.0.1, )"
           },
           "Microsoft.Extensions.Options": {
             "target": "Package",
@@ -6088,17 +6108,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "PlaylistMaker.Infrastructure depende de Azure.AI.Vision.ImageAnalysis (>= 1.0.0-beta.5) mas Azure.AI.Vision.ImageAnalysis 1.0.0-beta.5 não foi encontrado. Azure.AI.Vision.ImageAnalysis 1.0.0 foi resolvido.",
-      "libraryId": "Azure.AI.Vision.ImageAnalysis",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

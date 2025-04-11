@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlaylistMaker.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+090eb98e4497e6fdb7694a46bc574119916d273c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba704eee9b4c7b1962790ff130b943d5be72ff2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlaylistMaker.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlaylistMaker.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,18 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "tLAXwDfV4rk=",
+  "dgSpecHash": "4D3WBcS25p8=",
   "success": true,
   "projectFilePath": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Api\\PlaylistMaker.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\azure.ai.vision.face\\1.0.0-beta.2\\azure.ai.vision.face.1.0.0-beta.2.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\azure.ai.vision.imageanalysis\\1.0.0\\azure.ai.vision.imageanalysis.1.0.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
-    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.0\\microsoft.azure.cognitiveservices.vision.computervision.7.0.0.nupkg.sha512",
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.0\\microsoft.aspnetcore.http.2.3.0.nupkg.sha512",
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.3.0\\microsoft.aspnetcore.webutilities.2.3.0.nupkg.sha512",
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\microsoft.azure.cognitiveservices.vision.computervision.7.0.1.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.11\\microsoft.extensions.objectpool.8.0.11.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.extensions.options\\9.0.4\\microsoft.extensions.options.9.0.4.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.4\\microsoft.extensions.primitives.9.0.4.nupkg.sha512",
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.net.http.headers\\2.3.0\\microsoft.net.http.headers.2.3.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
@@ -42,7 +49,7 @@
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
-    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.buffers\\4.6.0\\system.buffers.4.6.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.clientmodel\\1.2.1\\system.clientmodel.1.2.1.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
@@ -99,7 +106,7 @@
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.text.json\\6.0.10\\system.text.json.6.0.10.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
@@ -110,16 +117,5 @@
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "PlaylistMaker.Infrastructure depende de Azure.AI.Vision.ImageAnalysis (>= 1.0.0-beta.5) mas Azure.AI.Vision.ImageAnalysis 1.0.0-beta.5 não foi encontrado. Azure.AI.Vision.ImageAnalysis 1.0.0 foi resolvido.",
-      "libraryId": "Azure.AI.Vision.ImageAnalysis",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

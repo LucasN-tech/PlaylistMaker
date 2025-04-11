@@ -44,3 +44,14 @@ C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\obj\Debug\n
 C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\obj\Debug\net8.0\PlaylistMaker.Api.pdb
 C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\obj\Debug\net8.0\PlaylistMaker.Api.genruntimeconfig.cache
 C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\obj\Debug\net8.0\ref\PlaylistMaker.Api.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\Azure.AI.Vision.ImageAnalysis.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\Azure.Core.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\Microsoft.Rest.ClientRuntime.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\System.ClientModel.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Development\Pessoal\PlaylistMaker\PlaylistMaker\PlaylistMaker.Api\bin\Debug\net8.0\Azure.AI.Vision.Face.dll

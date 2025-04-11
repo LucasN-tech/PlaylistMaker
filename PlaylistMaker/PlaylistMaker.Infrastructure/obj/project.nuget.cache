@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ClCMN446GfM=",
+  "dgSpecHash": "j8ZCaHuNF1E=",
   "success": true,
   "projectFilePath": "C:\\Development\\Pessoal\\PlaylistMaker\\PlaylistMaker\\PlaylistMaker.Infrastructure\\PlaylistMaker.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\azure.ai.vision.face\\1.0.0-beta.2\\azure.ai.vision.face.1.0.0-beta.2.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\azure.ai.vision.imageanalysis\\1.0.0\\azure.ai.vision.imageanalysis.1.0.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
-    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.0\\microsoft.azure.cognitiveservices.vision.computervision.7.0.0.nupkg.sha512",
+    "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\microsoft.azure.cognitiveservices.vision.computervision.7.0.1.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
@@ -104,16 +105,5 @@
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\LucasNóbregadeJesus\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "PlaylistMaker.Infrastructure depende de Azure.AI.Vision.ImageAnalysis (>= 1.0.0-beta.5) mas Azure.AI.Vision.ImageAnalysis 1.0.0-beta.5 não foi encontrado. Azure.AI.Vision.ImageAnalysis 1.0.0 foi resolvido.",
-      "libraryId": "Azure.AI.Vision.ImageAnalysis",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

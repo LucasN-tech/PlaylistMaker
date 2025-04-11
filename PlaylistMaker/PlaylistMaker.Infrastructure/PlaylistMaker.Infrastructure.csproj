@@ -7,13 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.AI.Vision.ImageAnalysis" Version="1.0.0-beta.5" />
-    <PackageReference Include="Microsoft.Azure.CognitiveServices.Vision.ComputerVision" Version="7.0.0" />
+    <PackageReference Include="Azure.AI.Vision.Face" Version="1.0.0-beta.2" />
+    <PackageReference Include="Azure.AI.Vision.ImageAnalysis" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.Vision.ComputerVision" Version="7.0.1" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PlaylistMaker.Application\PlaylistMaker.Application.csproj" />
+    <ProjectReference Include="..\PlaylistMaker.Domain\PlaylistMaker.Domain.csproj" />
   </ItemGroup>
 
 </Project>

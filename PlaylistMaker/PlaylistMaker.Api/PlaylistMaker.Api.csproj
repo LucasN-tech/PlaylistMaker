@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PlaylistMaker.Application\PlaylistMaker.Application.csproj" />
     <ProjectReference Include="..\PlaylistMaker.Domain\PlaylistMaker.Domain.csproj" />
     <ProjectReference Include="..\PlaylistMaker.Infrastructure\PlaylistMaker.Infrastructure.csproj" />
   </ItemGroup>

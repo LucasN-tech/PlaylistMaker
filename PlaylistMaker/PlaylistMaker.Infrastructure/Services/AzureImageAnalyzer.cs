@@ -1,47 +1,58 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Net.Http.Headers;
-using System.Threading.Tasks;
-using Azure;
+﻿using Azure;
+using Azure.AI.Vision.Face;
 using Azure.AI.Vision.ImageAnalysis;
-using Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models;
+using Microsoft.Extensions.Options;
 using PlaylistMaker.Domain.Entities;
 using PlaylistMaker.Domain.Interfaces;
 
-namespace PlaylistMaker.Infrastructure.Services
+public class AzureImageAnalyzer : IImageAnalyzer
 {
-    public class AzureImageAnalyzer : IImageAnalyzer
+    private readonly string _visionEndpoint;
+    private readonly string _visionKey;
+    public AzureImageAnalyzer(IOptions<AzureVisionSettings> visionConfig, IOptions<AzureFaceSettings> faceConfig)
     {
-        private readonly string _endpoint;
-        private readonly string _key;
+        _visionEndpoint = visionConfig.Value.Endpoint;
+        _visionKey = visionConfig.Value.Key;
+    }
 
-        public AzureImageAnalyzer()
+    public async Task<AzureImageAnalysisResult> AnalyzeImageAsync(Stream imageStream)
+    {
+        var imageBytes = await GetBytes(imageStream);
+        var imageResult = await AnalyzeWithVision(imageBytes);
+
+        return new AzureImageAnalysisResult
         {
-            _endpoint = Environment.GetEnvironmentVariable("VISION_ENDPOINT");
-            _key = Environment.GetEnvironmentVariable("VISION_KEY");
-        }
+            DenseCaption = imageResult.Caption,
+            Tags = imageResult.Tags,
+            Objects = imageResult.Objects,
+        };
+    }
 
-        public async Task<AzureImageAnalysisResult> AnalyzeImageAsync(Stream imageStream)
-        {
-            ImageAnalysisClient client = new ImageAnalysisClient(
-                new Uri(_endpoint),
-                new AzureKeyCredential(_key));
+    private async Task<(string Caption, List<string> Tags, List<string> Objects)> AnalyzeWithVision(byte[] imageBytes)
+    {
+        var client = new ImageAnalysisClient(new Uri(_visionEndpoint), new AzureKeyCredential(_visionKey));
+        using var stream = new MemoryStream(imageBytes);
 
-            ImageAnalysisResult result = client.Analyze(
-                BinaryData.FromStream(imageStream),
-                VisualFeatures.People | VisualFeatures.Read | VisualFeatures.Tags,
-                new ImageAnalysisOptions { GenderNeutralCaption = true });
+        var response = await client.AnalyzeAsync(
+            BinaryData.FromStream(stream),
+            VisualFeatures.DenseCaptions | VisualFeatures.Tags | VisualFeatures.Objects
+        );
 
-            Console.WriteLine(result.Tags);
+        var result = response.Value;
+        var caption = result.DenseCaptions?.Values?.FirstOrDefault()?.Text ?? "";
 
-            var analysisResult = new AzureImageAnalysisResult
-            {
-                Caption = result.Caption?.Text,
-                Tags = new List<string>()
-            };
+        var tags = result.Tags?.Values.Select(t => t.Name).ToList() ?? new();
+        var objects = result.Objects?.Values
+            .Select(o => o.Tags.FirstOrDefault()?.Name ?? "")
+            .Where(name => !string.IsNullOrEmpty(name))
+            .ToList() ?? new();
 
-            return analysisResult;
-        }
+        return (caption, tags, objects);
+    }
+    private async Task<byte[]> GetBytes(Stream stream)
+    {
+        using var ms = new MemoryStream();
+        await stream.CopyToAsync(ms);
+        return ms.ToArray();
     }
 }

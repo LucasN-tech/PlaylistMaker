@@ -8,7 +8,8 @@ namespace PlaylistMaker.Domain.Entities
 {
     public class AzureImageAnalysisResult
     {
-        public string Caption { get; set; }
-        public List<string> Tags { get; set; } = new();
+        public string DenseCaption { get; set; }
+        public List<string> Tags { get; set; }
+        public List<string> Objects { get; set; }
     }
 }
